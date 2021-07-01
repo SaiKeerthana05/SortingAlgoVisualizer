@@ -9,7 +9,6 @@ from tkinter.ttk import Combobox
 
 from Sorting_Visualizer.colors import *
 
-# Creating a base window
 from Sorting_Visualizer.sortingAlgorithms.bubbleSort import bubble_sort
 from Sorting_Visualizer.sortingAlgorithms.heapSort import heap_sort
 from Sorting_Visualizer.sortingAlgorithms.insertionSort import insertion_sort
@@ -17,6 +16,7 @@ from Sorting_Visualizer.sortingAlgorithms.mergeSort import merge_sort
 from Sorting_Visualizer.sortingAlgorithms.quickSort import quick_sort
 from Sorting_Visualizer.sortingAlgorithms.selectionSort import selection_sort
 
+# Creating a base window
 baseWindow = Tk()
 baseWindow.title("Sorting Algorithm Visualizer")
 baseWindow.maxsize(1600,800)
