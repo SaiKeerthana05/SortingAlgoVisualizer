@@ -3,4 +3,4 @@ This application helps the user to visualize some important sorting algorithms l
 
 Language used : Python 
 
-Library used : Tkinter, the standard GUI library for python
+Library used : tkinter, the standard GUI library for python
